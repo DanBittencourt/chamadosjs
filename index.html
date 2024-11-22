@@ -19,13 +19,13 @@
         <form id="chamado-form">
             <p>Adicione o ticket:</p>
             <div class="chamado-control">
-                <input type="text" id="chamado-input">
+                <input type="text" id="chamado-input" placeholder="Detalhes do chamado">
                 <button type="submit">
                     <i class="fa-thin fa-plus"></i>
                 </button>
             </div>
         </form>
-        <form id="edit-form">
+        <form id="edit-form" class="hidesS">
             <p>Editar o chamado:</p>
             <div class="chamado-control">
                 <input type="text" id="edit-input">
@@ -39,7 +39,7 @@
             <div id="search">
                 <h4>Pesquisar:</h4>
                 <form>
-                    <input type="text" id="search-input">
+                    <input type="text" id="search-input" placeholder="Buscar">
                     <button id="erase-button">
                         <i class="fa-solid fa-delete-left"></i>
                     </button>
@@ -55,7 +55,18 @@
             </div>
         </div>
         <div class="chamados-list">
-
+            <div class="todo">
+                <h3>teste</h3>
+                <button class="finish-chamado">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="edit-chamado">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remove-chamado">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
         </div>
     </div>
 </body>
